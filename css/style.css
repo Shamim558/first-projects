@@ -141,7 +141,6 @@ body {
     margin: auto;
 }
 
-
 .review-img {
    position: absolute;
    top: 32px;
@@ -150,19 +149,43 @@ body {
 /* popular section */
 
 
+/* about section  */
+.about-section {
+   background: linear-gradient(#F6EBDA, #F6EBDA), 
+   url(/assets/Exclude.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #F6EBDA; */
+    padding-bottom: 20px;
+    padding-top: 40px;
+    margin:0;
+}
 
-/* delevery section  */
+/* .coffe-img img {
+    height: 400px;
+    width: 300px;
+} */
 
-/* delevery section  */
+/* .coffe-img-container {
+   position: relative;
+   top: -90px;
+} */
 
+
+.about-btn {
+    text-decoration: none;
+    color:orange;
+    background-color: #2F2105;
+    padding: 10px 24px;
+    border-radius: 20px;
+}
+/* about section  */
 
 
 @media(max-width:990px) {
-
   .nav-bar-search-area {
     display: none;
   }
-
   .navbar {
      display: none;
   }
@@ -193,7 +216,6 @@ body {
   margin-left: 5px;
 }
 
-
 }
 @media (max-width:360px) {
   .more-btn {
@@ -220,7 +242,7 @@ body {
   margin-left: 5px;
 }
 
-
 }
+
 
 
